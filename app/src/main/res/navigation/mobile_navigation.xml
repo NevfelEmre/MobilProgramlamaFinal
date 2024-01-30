@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/labelFragment">
+    <fragment
+        android:id="@+id/labelFragment"
+        android:name="com.example.mobilprogramlamafinal.Fragments.LabelFragment"
+        android:label="fragment_label"
+        tools:layout="@layout/fragment_label" />
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.example.mobilprogramlamafinal.Fragments.PhotoFragment"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.mobilprogramlamafinal.Fragments.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.mobilprogramlamafinal.Fragments.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.example.mobilprogramlamafinal.Fragments.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>
